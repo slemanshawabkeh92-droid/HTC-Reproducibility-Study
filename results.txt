@@ -1,0 +1,4 @@
+Original Micro-F1: 0.89
+Reproduced Micro-F1: 0.87
+Performance gap: 2%
+Seeds used: 42, 123, 2024
