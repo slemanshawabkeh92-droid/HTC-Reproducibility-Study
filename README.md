@@ -15,5 +15,12 @@ RCV1-V2 dataset
 ## Reproducibility
 Experiments are conducted using multiple random seeds: 42, 123, 2024.
 
-## Author
-Sulaiman Ahmad Sulaiman Almasalheh
+## Authors
+- Sulaiman Ahmad Sulaiman Almasalheh  
+- Noura Khalifa Saeed Alrahbi
+
+## How to Run
+
+```bash
+pip install -r requirements.txt
+python train.py
