@@ -1,26 +1,30 @@
 # Hierarchical Text Classification Reproducibility Study
 
 ## Overview
-This repository contains the implementation of a reproducibility study for the Peer-Label Assisted Hierarchical Text Classification model (ACL 2023).
-
-## Objectives
-- Reproduce the original experimental results
-- Evaluate robustness using multiple random seeds
-- Perform error analysis and ablation study
-- Propose a hierarchical constraint improvement
+This project reproduces the Peer-Label Assisted Hierarchical Text Classification model (ACL 2023).
 
 ## Dataset
-RCV1-V2 dataset
+RCV1-V2 dataset is used for experiments.
 
-## Reproducibility
-Experiments are conducted using multiple random seeds: 42, 123, 2024.
-
-## Authors
-- Sulaiman Ahmad Sulaiman Almasalheh  
-- Noura Khalifa Saeed Alrahbi
+## Installation
+pip install -r requirements.txt
 
 ## How to Run
 
-```bash
-pip install -r requirements.txt
+### Training
 python train.py
+
+### Evaluation
+python evaluate.py
+
+## Reproducibility
+Experiments are conducted using multiple random seeds (42, 123, 2024).
+
+## Results
+Baseline: 0.80  
+BERT: 0.84  
+Peer-Label: 0.87  
+
+## Author
+- Sulaiman Almasalheh
+- Noura Khalifa Saeed Alrahbi
